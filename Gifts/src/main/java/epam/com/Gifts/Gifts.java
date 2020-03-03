@@ -39,7 +39,7 @@ public class Gifts {
 	for(Sweet s:dairymilk){
 	System.out.println(s.name+" "+s.cost+" "+s.weight+" "+s.content);
 	}
-	System.out.println("Do you Want List of Candies(y/n)");
+	System.out.println("Do you Want List of candies(y/n)");
 	char c=sc.next().charAt(0);
 	if(c=='y'){
 	System.out.print("Enter the Option :\n1.Cost\n2.Weight\n3Content\n");
