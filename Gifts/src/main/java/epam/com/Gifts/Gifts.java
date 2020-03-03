@@ -44,7 +44,7 @@ public class Gifts {
 	if(c=='y'){
 	System.out.print("Enter the Option :\n1.Cost\n2.Weight\n3Content\n");
 	op=sc.nextInt();
-	System.out.println("Enter the Range");
+	System.out.println("Enter  Range");
 	int min=sc.nextInt();
 	int max=sc.nextInt();
 	if(op==1) {
